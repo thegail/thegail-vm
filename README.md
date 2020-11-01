@@ -26,25 +26,15 @@ Each instruction is made up of three bytes. An instruction byte (key below) and 
 
 
     0x10 LOD Load from memory to accumulator
-  
     0x11 STO Store from accumulator to memory
-  
     0x20 ADD Add the contents of the specified memory address to the accumulator
-  
     0x21 AWC Add the contents of the specified memory address to the accumulator, using the carry flag as a carry in
-  
     0x22 SUB Subtract the contents of the specified memory address from the accumulator
-  
     0x30 JMP Jump the program counter to the specified memory address
-  
     0x31 JZ  Jump the program counter to the specified memory address, if the zero flag is set
-  
     0x32 JNZ Jump the program counter to the specified memory address, if the zero flag is not set
-  
     0x33 JC  Jump the program counter to the specified memory address, if the carry flag is set
-  
     0x34 JNC Jump the program counter to the specified memory address, if the carry flag is not set
-  
     0xFF HLT Stop the program counter, ending the program
 
 
